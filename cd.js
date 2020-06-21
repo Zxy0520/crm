@@ -10,6 +10,6 @@ server.on('request', function (req, resp) {
     })
     resp.end("receive one push")
 })
-server.listen(3001, function () {
-    console.log("持续集成服务器已在3001端口启动")
+server.listen(3000, function () {
+    console.log("持续集成服务器已在3000端口启动")
 })
