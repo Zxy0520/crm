@@ -12,7 +12,7 @@ public class CommenController {
     @RequestMapping(value = "/albums")
     public List<Album> findAllAlbums(){
         List albums = new ArrayList();
-        for (int i = 0;i < 6;i++){
+        for (int i = 0;i < 2;i++){
             Album a = new Album();
             a.setId(i);
             a.setName("album"+i);
